@@ -10,14 +10,17 @@ body {
 
 .jumbotron {
   text-align: center;
-  color: black;
+  color:/* white;*//*#252523;*//*#a39274;*//*white;*//*orange;*//*white;*/black;
   border-radius: 0;
-  border-bottom: 10px solid black;
-  /*background-image: url(../assets/images/background.jpg);*/
+  border-bottom: 10px solid /*black;*/rgb(112, 128, 152);
+  /*background-color:  /*#AAF0D1/* #4cb69f;*/ /*#43BFC7;*/
+  /*#5f9ea0;*//*grey;*//*#43BFC7;*//*#0000ff;*/
+  background: linear-gradient(99.6deg, rgb(112, 128, 152) 10.6%, rgb(242, 227, 234) 32.9%, rgb(234, 202, 213) 52.7%, rgb(220, 227, 239) 72.8%, rgb(185, 205, 227) 81.1%, rgb(154, 180, 212) 102.4%);
 }
 
 button#delete-schedule {
   margin-top: 10px;
+  background: rgb(154, 180, 212);
 }
 
 /* Time Block Elements */
@@ -25,7 +28,7 @@ button#delete-schedule {
 .row {
   white-space: pre-wrap;
   height: 80px;
-  border-top: 1px solid white;
+  border-top: 1px solid/* white;*/rgb(112, 128, 152);
 }
 
 .hour {
@@ -49,17 +52,17 @@ textarea {
 /* Color coding for event blocks */
 
 .past {
-  background-color: #d3d3d3;
+  background-color: #d4d4dc;    /* #EDE8BA; /* #d3d3d3;*/
   color: black;
 }
 
 .present {
-  background-color: #ff6961;
+  background-color:  #ff6961;
   color: black;
 }
 
 .future {
-  background-color: #77dd77;
+  background-color: #F9E076;/*#77dd77;*/
   color: black;
 }
 
@@ -73,7 +76,7 @@ textarea {
   border-bottom: none;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06AED5;
+  background-color: /*#1d1e22; */ #43BFC7;    /* #d4d4dc; */     /*#393f4d;*/       /* #06AED5;*/
   color: white;
 }
 
