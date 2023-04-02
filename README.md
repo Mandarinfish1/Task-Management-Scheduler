@@ -58,11 +58,11 @@
 
 # Deployed Repository Link
 
-- 
+- https://mandarinfish1.github.io/Task-Management-Scheduler/
 
 # Task Management Repostory Link
 
-- 
+- https://github.com/Mandarinfish1/Task-Management-Scheduler
 
 # Questions
 
